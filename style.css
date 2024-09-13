@@ -1,0 +1,45 @@
+/* Estilo general para ambos enlaces */
+.missile-link {
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el enlace de alerta real */
+#real-alert {
+    background-color: red;
+    border: 3px solid darkred;
+}
+
+#real-alert:hover {
+    background-color: darkred;
+}
+
+/* Estilo para el enlace de prueba */
+#test-only {
+    background-color: green;
+    border: 3px solid darkgreen;
+}
+
+#test-only:hover {
+    background-color: darkgreen;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+

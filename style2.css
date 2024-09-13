@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for more emphasis */
+}
+
+h1 {
+    color: #0056b3; /* Dark blue for the header */
+}
+
+.form-control {
+    border-color: #007bff; /* Brighter blue for the input borders */
+}
+
+.form-control:focus {
+    border-color: #0056b3; /* Darker blue on focus for inputs */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Light blue shadow on focus */
+}
+
+.btn-primary {
+    background-color: #ff5722; /* Vibrant orange for the button */
+    border-color: #ff5722;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+    border-color: #e64a19;
+}
+
+.form-text.text-danger {
+    color: #dc3545; /* Red color for error message */
+}
